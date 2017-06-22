@@ -10,9 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+        @IBOutlet weak var UITableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+               // UITableView.delegate = self
+                //UITableView.dataSource = self
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,4 +27,5 @@ class ViewController: UIViewController {
 
 
 }
+
 
