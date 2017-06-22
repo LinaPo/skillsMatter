@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "skillsMatter/ViewController.swift"
+            timestampString = "519849627.473908"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "skillsMatter.ViewController.__deallocating_deinit"
+                  moduleName = "skillsMatter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/indresveikauskaite/Documents/skillsMatterNew/skillsMatter/ViewController.swift"
+                  timestampString = "519849627.608629"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "skillsMatter.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; skillsMatter.ViewController"
+                  moduleName = "skillsMatter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/indresveikauskaite/Documents/skillsMatterNew/skillsMatter/ViewController.swift"
+                  timestampString = "519849627.611312"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "skillsMatter.ViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; skillsMatter.ViewController"
+                  moduleName = "skillsMatter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/indresveikauskaite/Documents/skillsMatterNew/skillsMatter/ViewController.swift"
+                  timestampString = "519849627.613813"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "skillsMatter.ViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;skillsMatter.ViewController&gt;"
+                  moduleName = "skillsMatter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/indresveikauskaite/Documents/skillsMatterNew/skillsMatter/ViewController.swift"
+                  timestampString = "519849627.616308"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "skillsMatter.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;skillsMatter.ViewController&gt;"
+                  moduleName = "skillsMatter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/indresveikauskaite/Documents/skillsMatterNew/skillsMatter/ViewController.swift"
+                  timestampString = "519849627.618865"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h"
+            timestampString = "519848300.156821"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
