@@ -8,15 +8,30 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,  UITableViewDelegate, UITableViewDataSource{
 
-        @IBOutlet weak var UITableView: UITableView!
+    @IBOutlet var UITableView: UITableView!
+    
+    var array = ["labas", "ka tu"]
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 2
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell")
+        
+        cell?.textLabel?.text = array[indexPath.row]
+        
+        return cell!
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-               // UITableView.delegate = self
-                //UITableView.dataSource = self
+//               UITableView.delegate = self as! UITableViewDelegate
+//            UITableView.dataSource = self as! UITableViewDataSource
 
     }
 
@@ -24,7 +39,6 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 
 }
 
