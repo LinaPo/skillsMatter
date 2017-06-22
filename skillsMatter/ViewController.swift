@@ -12,10 +12,10 @@ class ViewController: UIViewController,  UITableViewDelegate, UITableViewDataSou
 
     @IBOutlet var UITableView: UITableView!
     
-    var array = ["labas", "ka tu"]
+    var array = ["Books", "Online courses", "Conferences", "Other"]
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2
+        return 4
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
